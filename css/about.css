@@ -1,0 +1,176 @@
+.logo h1 {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ded1fd6b-6738-42b8-b0cf-d5fd40ca7500/dckwdtm-926642f4-ccbb-4143-9984-45b952e34549.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RlZDFmZDZiLTY3MzgtNDJiOC1iMGNmLWQ1ZmQ0MGNhNzUwMFwvZGNrd2R0bS05MjY2NDJmNC1jY2JiLTQxNDMtOTk4NC00NWI5NTJlMzQ1NDkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.cIw7NV3UBtjE-T1RNe0KZfFGs_JuQdtv_mvZJlTZApc);
+    background-size: cover;
+    color: orange;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip:text;
+    background-clip:text; 
+    padding: 10px;
+    font-size: 3em;
+    text-align:center;
+}
+
+
+.navbar {
+background-color: dark;
+height: 60px;    
+}
+
+.navbar-nav a{ 
+color: white;
+}
+
+
+.navbar-nav .nav-link.active, .navbar-nav .show .nav-link{
+color: white !important;
+}
+.navbar-nav a:hover {
+    background-color: orange;
+    transition: 0.3ms;
+}
+
+.about-us {
+background-color: white;
+padding: 0%;
+margin: 0%;
+
+
+}
+
+
+.share-us {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 30px;
+    
+}
+
+
+.share-us button {
+    background-color: orange;
+}
+
+.title h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+    color: black;
+
+}
+
+
+
+.title h3 {
+    display: flex;
+     padding: 30px;
+    
+}
+
+
+
+.who-we-are {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+
+.who-we-are p {
+    display: flex;
+    margin: 20px;
+    width: 40%;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+
+}
+
+.who-we-are img {
+    width: 300px;
+    margin: 0% 10%;
+    display: flex;
+    
+}
+
+.comments-title h3{
+    display: flex;
+    padding: 30px;  
+    
+
+}
+
+.comments-paragraph{
+    display: flex;
+     flex-direction: row;
+
+}
+
+
+
+.comments-paragraph p {
+    display: flex;
+    margin: 20px;
+    width: 40%;
+    color: black;
+    text-align: center;
+    font-size: large;
+ 
+
+}
+
+
+.comments-paragraph img {
+     width: 300px ;   
+     display: flex;
+     margin: 0% 10%    
+}
+
+
+
+.product-reviews-title {
+    display: flex;
+    padding: 30px;
+}
+
+
+.product-reviews {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+.product-reviews p {
+    display: flex;
+    margin: 20px;
+    width: 40%;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+
+}
+
+
+.product-reviews button {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.product-reviews img {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    margin: 0% 10%;
+}
+
+
+.share-button {
+    display: flex;
+    justify-content: center;
+}
